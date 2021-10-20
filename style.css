@@ -23,4 +23,7 @@ li
 .block
 {
     display: inline-block;
+    background: crimson;
+    width: 100px;
+    height: 100px;
 }
