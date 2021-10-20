@@ -5,5 +5,11 @@
 
 h1
 {
-    
+    text-align: center;
+    background: chocolate;
+}
+
+li
+{
+    display: inline-block;
 }
