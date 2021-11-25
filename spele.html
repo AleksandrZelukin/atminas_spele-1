@@ -94,6 +94,17 @@
             pedejieDivi.push(laukums)
         }
 
+        if( pedejieDivi.length == 2 )
+        {
+            let atverts1 = pedejieDivi[0].replace('L','')
+            let atverts2 = pedejieDivi[1].replace('L','')
+
+            if( laukumuSaturs.indexOf(atverts1) == laukumuSaturs.indexOf(atverts2) )
+
+            console.log(atverts1)
+
+        }
+
         atvertieLaukumi.push(laukums)
 
         if( laukumuSaturs.length == atvertieLaukumi.length )
