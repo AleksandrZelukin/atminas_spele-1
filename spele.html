@@ -105,10 +105,17 @@
             if( laukumuSaturs[atverts1] == laukumuSaturs[atverts2] )
             {
                 console.log('atvērti vienādi')
+                atvertieLaukumi.push(laukums)
+            }
+            else
+            {
+                console.log('nav atvērti vienādi')
+                document.querySelector('#'+pedejieDivi[0]+' div').style.display='none'
+                document.querySelector('#'+pedejieDivi[1]+' div').style.display='none'
             }
 
-            atvertieLaukumi.push(laukums)
 
+            pedejieDivi = []
         }
 
         
