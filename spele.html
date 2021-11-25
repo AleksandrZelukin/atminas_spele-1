@@ -91,6 +91,7 @@
         if(atvertsJaunsLaukums)
         {
             document.querySelector('#'+laukums+' div').style.display="block"
+            document.querySelector('#'+laukums+' div').style.opacity=1
             pedejieDivi.push(laukums)
         }
 
@@ -105,7 +106,7 @@
             if( laukumuSaturs[atverts1] == laukumuSaturs[atverts2] )
             {
                 console.log('atvērti vienādi')
-                atvertieLaukumi.push(laukums)
+                atvertieLaukumi.push( pedejieDivi[0],pedejieDivi[1] )
             }
             else
             {
