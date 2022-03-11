@@ -68,6 +68,7 @@ function veiktGajienu(laukums)
     if( laukumuSaturs.length == atvertieLaukumi.length )
     {
         alert('Apsveicam')
+        location('https://rezultati-1.armandspucs.repl.co/pielikt?vards=Dace&punkti=35')
     }
 
 }
